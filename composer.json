@@ -1,0 +1,22 @@
+{
+    "name": "nicollasdev/teste-composer",
+    "description": "Pacote de exemplo para testes e estudos do composer",
+    "type": "library",
+    "require-dev": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicollas Feitosa",
+            "email": "contatonicollasfeitosa@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "NicollasFig\\CursoComposer\\": "src"
+        }
+    },
+    "require": {
+        "monolog/monolog": "^2.1"
+    }
+}
